@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: rgb(232, 232, 232);
+}
+
+.head {
+  display: flex;
+}
+
+header img {
+  max-width: 200px;
+  margin: 10px 20px;
+}
+
+.main {
+  margin: 20px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.authorname {
+  color: rgb(34, 118, 143);
+  margin: 0 5px;
+  font-weight: 500;
+}
+
+.author span {
+  color: rgb(114, 114, 114);
+  margin-left: 10px;
+}
+
+.publish {
+  font-weight: 500;
+  margin: 0 10px;
+  color: rgb(97, 97, 97);
+}
+
+.category {
+  display: flex;
+  align-items: center;
+}
+
+.category span {
+  font-size: 12px;
+}
+
+.category .cat {
+  margin: 5px 5px;
+  color: rgb(213, 56, 56);
+}
+
+.pricesave {
+  display: flex;
+}
+
+.price {
+  color: rgb(213, 56, 56);
+  align-items: center;
+  display: flex;
+  margin: 0 10px 0 0;
+}
+
+.price sup {
+  font-weight: 200;
+  font-size: 10px;
+  margin: -5px 1px 0 0;
+}
+
+.pricesave .save {
+  font-weight: 500;
+  color: rgb(67, 67, 67);
+  font-size: 14px;
+}
